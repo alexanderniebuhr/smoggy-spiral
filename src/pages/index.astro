@@ -13,7 +13,7 @@ const runtime = Astro.locals.runtime;
   <body>
     <h1>Astro</h1>
     <pre>
-			{runtime}
+			{JSON.stringify(runtime, null, 2)}
 		</pre>
   </body>
 </html>
